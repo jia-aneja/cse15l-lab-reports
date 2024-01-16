@@ -1,6 +1,8 @@
 # CSE 15L
 ## Lab Report 1
 
+***
+
 1. **Command `cd`**
 
    The `cd` command is used to change the current working directory to the given path.
