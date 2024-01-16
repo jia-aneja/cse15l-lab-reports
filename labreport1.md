@@ -1,7 +1,7 @@
 # CSE 15L
 ## Lab Report 1
 
-* **Command `cd`**
+1. **Command `cd`**
 
    The `cd` command is used to change the current working directory to the given path.
    
@@ -45,7 +45,7 @@
   
    ***
 
-* **Command `ls`**
+2. **Command `ls`**
 
    The `ls` command is used to list the files and folders in the given path.
 
@@ -87,5 +87,5 @@
     
    ***
 
-* **Command `cat`**
+3. **Command `cat`**
      
