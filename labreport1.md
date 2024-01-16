@@ -31,4 +31,18 @@
    ***
 
    - **using the `cd` command with a path to a file as an argument**
+  
+    1. ![Image](Screenshot%2024-01-15%181136.png)
+  
+    2. Before using the `cd` command, the working directory was `/home/lecture1`. After the command, the current working directory remains the same.
+  
+    3. We got the following output:
+       `bash: cd: README: Not a directory`
+       This is because the `cd` command only takes directories as arguments and not files.
+
+    4. The output is an error as it demonstrates that `README` is not a directory and that the `cd` command only takes directories.
+  
+   ***
+
+2. Command `ls`
      
