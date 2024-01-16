@@ -45,4 +45,12 @@
    ***
 
 2. Command `ls`
+
+   The `ls` command is used to list the files and folders in the given path.
+
+   ***
+
+   - **using the `ls` command with no arguments**
+
+     1. 
      
