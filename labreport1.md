@@ -122,5 +122,13 @@
 
      1. ![Image](Screenshot%202024-01-16%20135749.png)
     
-        ![Image](
+        ![Image](Screenshot%202024-01-16%20135801.png)
+
+     2. Before the `cat` command, the directory was `/home`. But the working directory was changed using the `cd` command to `/home/lecture1/` and then `/home/lecture1/messages`.
+    
+     3. The `cat` command basically reads the files and prints the concatenated result of the files as the output. In the first image, when only one file was given as the input, the contents of the respective files were printed as the output. In the second image when the two files `en-us.txt` and `fr.txt` are given as arguments, the content of both the files are printed as the output in the terminal one after another.
+    
+     4. The output is not an error.
+    
+   ***
      
