@@ -108,5 +108,17 @@
     
    - **using the `cat` command with a path to a directory as an argument**
 
+     1. ![Image](Screenshot%202024-01-16%20135044.png)
+    
+     2. When the `cat` command is run the current working directory is `/home`.
+    
+     3. We get the output `cat: lecture1/: Is a directory` because the `cat` command only accepts files as arguments and not directories.
+    
+     4. We get an error as we cannot use directories as arguments for the `cat` command. The error is `cat: lecture1/: Is a directory`.
+    
+   ***
+
+   - **using the command with a path to a file as an argument**
+
      1. 
      
