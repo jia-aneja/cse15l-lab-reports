@@ -88,4 +88,11 @@
    ***
 
 3. **Command `cat`**
+
+   "Concatenate"
+   This command is used to print the contents of one or more files given by the paths.
+
+   - **using the `cat` command with no arguments**
+
+     1. 
      
