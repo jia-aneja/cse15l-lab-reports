@@ -76,5 +76,15 @@
 
    - **using the `ls` command with a path to a file as an argument**
   
-     1. 
+     1. ![Image](Screenshot%202024-01-16%20124401.png)
+    
+     2. When the `ls` command is run the current working directory is `/home`. After the command `cd lecture1` the current working directory changes to `/home/lecture1`. After the `cd messages` command the current working directory changes to `/home/lecture1/messages`.
+    
+     3. When we give `README` as the argument to the `ls` command, it returns the same file name i.e `README` as the output because it lists out the specific file name mentioned in the path. When we give `en-us.txt` as the argument, it returns the same file name as the output. When we give the command `ls README` when the working directory is `/home`, it throws an error, `ls: cannot access 'README': No such file or directory` because the `README` file is in the `lecture1` directory and cannot be accessed from the current working directory.
+    
+     4. An error is thrown when we try to access a file in a directory that is not our current directory. The error message is `ls: cannot access 'README': No such file or directory`. But if we use the correct paths and directories, the output is not an error.
+    
+   ***
+
+3. Command `cat`
      
