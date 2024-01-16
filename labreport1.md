@@ -32,7 +32,7 @@
 
    - **using the `cd` command with a path to a file as an argument**
   
-    1. ![Image](Screenshot%2024-01-15%181136.png)
+    1. ![Image](https://github.com/jia-aneja/cse15l-lab-reports/blob/main/Screenshot%202024-01-15%20181136.png)
   
     2. Before using the `cd` command, the working directory was `/home/lecture1`. After the command, the current working directory remains the same.
   
