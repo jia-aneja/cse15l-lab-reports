@@ -55,7 +55,7 @@
 
    - **using the `ls` command with no arguments**
 
-     1. ![Image](Screenshot%202024-01-16%20115557.png)
+     1. ![Image](Screenshot%202024-01-16%20141854.png)
     
      2. When the `ls` command is run the current working directory is `/home`.
     
