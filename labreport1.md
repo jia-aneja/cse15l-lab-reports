@@ -64,7 +64,7 @@
 
    - **using the `ls` command with a path to a directory as an argument**
 
-     1. ![Image](https://github.com/jia-aneja/cse15l-lab-reports/blob/main/Screenshot%202024-01-16%20121226.png)
+     1. ![Image](Screenshot%202024-01-16%20121226.png)
     
      2. When the `ls` command is run the current working directory is `/home`.
     
