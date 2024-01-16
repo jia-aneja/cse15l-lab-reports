@@ -92,7 +92,21 @@
    "Concatenate"
    This command is used to print the contents of one or more files given by the paths.
 
+   ***
+
    - **using the `cat` command with no arguments**
+
+     1. ![Image](Screenshot%202024-01-16%20134056.png)
+    
+     2. When the `cat` command is run the current working directory is `/home`.
+    
+     3. When the `cat` command is run without any argument, it by default reads data from the terminal since it does not have any files to read. If we write anything in the terminal after the `cat` command, it returns the keyboard input as the output in the terminal because the program is still running. We can see that the program is still running because `[user@sahara~]$` does not show up in the subsequent lines of the terminal.
+    
+     4. The output is not an error.
+
+   ***
+    
+   - **using the `cat` command with a path to a directory as an argument**
 
      1. 
      
