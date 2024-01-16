@@ -62,11 +62,19 @@
     
    ***
 
-   - **using the command with a path to a directory as an argument**
+   - **using the `ls` command with a path to a directory as an argument**
 
      1. ![Image](https://github.com/jia-aneja/cse15l-lab-reports/blob/main/Screenshot%202024-01-16%20121226.png)
     
      2. When the `ls` command is run the current working directory is `/home`.
     
-     3. 
+     3. When we give `lecture1` as an argument with the `ls` command, it gives `Hello.class  Hello.java  messages  README` as the output because it lists all the files and folders in the `lecture1` directory.
+    
+     4. The output is not an error.
+    
+   ***
+
+   - **using the `ls` command with a path to a file as an argument**
+  
+     1. 
      
