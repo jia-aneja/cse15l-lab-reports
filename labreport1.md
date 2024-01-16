@@ -11,7 +11,7 @@
 
    - **using the `cd` command with no arguments**
 
-      1. ![Image](Screenshot%202024-01-11%20130911.png)
+      1. ![Image](Screenshot%202024-01-16%20142227.png)
   
       2. When the command was used the current working directory was `/home`.
   
