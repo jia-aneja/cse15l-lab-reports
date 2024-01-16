@@ -120,5 +120,7 @@
 
    - **using the command with a path to a file as an argument**
 
-     1. ![Image]
+     1. ![Image](Screenshot%202024-01-16%20135749.png)
+    
+        ![Image](
      
