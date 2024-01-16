@@ -120,5 +120,5 @@
 
    - **using the command with a path to a file as an argument**
 
-     1. 
+     1. ![Image]
      
