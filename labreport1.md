@@ -52,5 +52,17 @@
 
    - **using the `ls` command with no arguments**
 
+     1. ![Image](https://github.com/jia-aneja/cse15l-lab-reports/blob/main/Screenshot%202024-01-16%20115557.png)
+    
+     2. When the `ls` command is run the current working directory is `/home`.
+    
+     3. We get the output `lecture1` in the first case because the folder in the current working directory `/home` is `lecture1`. In the second case, when the current working directory is changed to `/home/lecture1/`, we get the output `Hello.class  Hello.java  messages  README` because those are the files and the folders in the current directory. `lecture1` and `messages` are in blue and bold because folders are depicted in a different way than files.
+    
+     4. The output is not an error.
+    
+   ***
+
+   - **using the command with a path to a directory as an argument**
+
      1. 
      
