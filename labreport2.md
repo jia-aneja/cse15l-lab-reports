@@ -65,5 +65,18 @@ Example 2
   
    3. Logging into the `ieng6` account without entering the password:
 
-      ![Image](
+      ![Image](Screenshot%202024-01-30%20141505.png)
+
+      Using the `mkdir` and `scp` commands I ran on the terminal when I generated the keys, I was able to log into the `ieng6`
+      remote account without entering my password. Now any time I login, I am not asked my password, and I can log in directly.
+
+   ***
+
+   ## TASK 3
+
+   From the week 2 and 3 lab, I learnt how to start my own server using a port number and I wrote my own java code to add messages
+   from the URI that show up on the server. I also learnt how to connect my laptop to a remote server and access the private and
+   public keys.
+
+   ***
 
