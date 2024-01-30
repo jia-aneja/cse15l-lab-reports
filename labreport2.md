@@ -55,3 +55,15 @@ Example 2
 
    ***
 
+   ## TASK 2
+
+   ![Image](Screenshot%202024-01-30%20140517.png)
+
+   1. Absolute path to the private key is `/home/linux/ieng6/oce/82/janeja/.ssh/id_rsa`.
+  
+   2. Absolute path to the public key is `/home/linux/ieng6/oce/82/janeja/.ssh/id_rsa.pub`.
+  
+   3. Logging into the `ieng6` account without entering the password:
+
+      ![Image](
+
