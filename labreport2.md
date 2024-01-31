@@ -33,9 +33,9 @@ Using `/add-message`
 
 ![Image](WhatsApp%20Image%202024-01-30%20at%2011.37.11%20AM.jpeg)
 
-1. The `main` method creates a new `Handler` object which calls the `handleRequest` method. In this case the `start` method is not called because the Server is already started and running at port 4444.
+1. In the above example, only the `handleRequest` method is called. The `start` and `main` methods are not called because the Server is already started and running at port 4444.
 
-2. The `main` method takes one argument that is the port number which is an integer. The `'Handler` class implements the `URLHandler` interface which has the `handleRequest` method. This means that the `Handler` class must also implement the `handleRequest` method. The `handleRequest` method takes a URI as an argument. 
+2. In this example, we are not executing any files, we are only updating the message shown by updating the URL using the `add-message` string. The `handleRequest` method checks if the path of the URI conatins `add-message` and then the string is split multiple times.
 
 3. In this example, when we run the server with the request `/add-message?s=How are you&user=yash` then according to the `handleRequest` method of the `ChatServer.java` file, the else statement is executed, the request is splitted at `&` and then the two elements of the parameters are splitted at `=`. We get the message array as `["s", "How are you"]` and the user array as `["user","yash"]`. The message `yash: How are you` is printed in the next line because the previous line `jpolitz: Hello` ends with a `\n`.
 
@@ -45,9 +45,9 @@ Using `/add-message`
 
 ![Image](Screenshot%202024-01-30%20200948.png)
 
-![Image](
+![Image](Screenshot%202024-01-30%20201000.png)
 
-1. Absolute path to the private key is `/home/linux/ieng6/oce/82/janeja/.ssh/id_rsa`.
+1. Absolute path to the private key is `C:\Users\jiaan/.ssh/id_rsa`.
 
 ![Image](Screenshot%202024-01-30%20140517.png)
 
