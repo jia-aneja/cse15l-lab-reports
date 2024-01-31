@@ -43,21 +43,21 @@ Using `/add-message`
 
 ## TASK 2
 
-![Image](Screenshot%202024-01-30%20200948.png)
-
-![Image](Screenshot%202024-01-30%20201000.png)
-
 1. Absolute path to the private key is `C:\Users\jiaan/.ssh/id_rsa`.
+   
+   ![Image](Screenshot%202024-01-30%20200948.png)
 
-![Image](Screenshot%202024-01-30%20140517.png)
+   ![Image](Screenshot%202024-01-30%20201000.png)
 
 2. Absolute path to the public key is `/home/linux/ieng6/oce/82/janeja/.ssh/id_rsa.pub`.
 
+   ![Image](Screenshot%202024-01-30%20140517.png)
+
 3. Logging into the `ieng6` account without entering the password:
 
-![Image](Screenshot%202024-01-30%20141505.png)
+   ![Image](Screenshot%202024-01-30%20141505.png)
 
-Using the `mkdir` and `scp` commands I ran on the terminal when I generated the keys, I was able to log into the `ieng6` remote account without entering my password. Now any time I login, I am not asked my password, and I can log in directly.
+   Using the `mkdir` and `scp` commands I ran on the terminal when I generated the keys, I was able to log into the `ieng6` remote account without entering my password. Now any time I login, I am not asked my password, and I can log in directly.
 
 ***
 
