@@ -27,7 +27,7 @@ The `reversed` method of `ArrayExamples` class has a bug.
    ```
 3. The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 
-   ![Image](https://github.com/jia-aneja/cse15l-lab-reports/blob/main/Screenshot%202024-02-13%20at%205.39.42%20PM.png)
+   ![Image](Screenshot%202024-02-13%20at%205.39.42%20PM.png)
 
 4. The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 
@@ -70,21 +70,21 @@ The `reversed` method of `ArrayExamples` class has a bug.
    
 2. `-type <type>`: searches for files of a particular type ('f' for files, 'd' for directories)
 
-   ![Image](https://github.com/jia-aneja/cse15l-lab-reports/blob/main/Screenshot%202024-02-13%20at%205.21.25%20PM.png)
+   ![Image](Screenshot%202024-02-13%20at%205.21.25%20PM.png)
 
-   ![Image](https://github.com/jia-aneja/cse15l-lab-reports/blob/main/Screenshot%202024-02-13%20at%205.21.41%20PM.png)
+   ![Image](Screenshot%202024-02-13%20at%205.21.41%20PM.png)
 
 3. `-size [+|-]size[c]`: Search for files of a specific size. You can use + or - to specify larger or smaller sizes, and c to specify bytes explicitly.
 
-   ![Image](https://github.com/jia-aneja/cse15l-lab-reports/blob/main/Screenshot%202024-02-13%20at%205.23.50%20PM.png)
+   ![Image](Screenshot%202024-02-13%20at%205.23.50%20PM.png)
 
-   ![Image](https://github.com/jia-aneja/cse15l-lab-reports/blob/main/Screenshot%202024-02-13%20at%205.24.06%20PM.png)
+   ![Image](Screenshot%202024-02-13%20at%205.24.06%20PM.png)
 
 4. `-mindepth <level>`: Start the search after a specific number of directory levels.
 
-   ![Image](https://github.com/jia-aneja/cse15l-lab-reports/blob/main/Screenshot%202024-02-13%20at%205.25.04%20PM.png)
+   ![Image](Screenshot%202024-02-13%20at%205.25.04%20PM.png)
 
-   ![Image](https://github.com/jia-aneja/cse15l-lab-reports/blob/main/Screenshot%202024-02-13%20at%205.25.11%20PM.png)
+   ![Image](Screenshot%202024-02-13%20at%205.25.11%20PM.png)
 
 **SOURCES:**
 - [Linux Manual Page](https://man7.org/linux/man-pages/man1/find.1.html)
