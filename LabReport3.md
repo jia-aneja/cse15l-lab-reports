@@ -62,7 +62,7 @@ The `reversed` method of `ArrayExamples` class has a bug.
 
 1. `-iname` "pattern" is similar to the `-name` pattern but is case insensitive.
 
-    ![Image](Screenshot%202024-02-13%20142057.png)
+    ![Image](Screenshot%2024-02-13%at%5.11.46%PM.png)
 
 3. `-type <type>`: searches for files of a particular type ('f' for files, 'd' for directories)
 
