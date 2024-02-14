@@ -62,8 +62,10 @@ The `reversed` method of `ArrayExamples` class has a bug.
 
 1. `-iname` "pattern" is similar to the `-name` pattern but is case insensitive.
 
-2. `-type <type>`: searches for files of a particular type ('f' for files, 'd' for directories)
+    ![Image](Screenshot%202024-02-13%20142057.png)
 
-3. `-size [+|-]size[c]`: Search for files of a specific size. You can use + or - to specify larger or smaller sizes, and c to specify bytes explicitly.
+3. `-type <type>`: searches for files of a particular type ('f' for files, 'd' for directories)
 
-4. `-mindepth <level>`: Start the search after a specific number of directory levels.
+4. `-size [+|-]size[c]`: Search for files of a specific size. You can use + or - to specify larger or smaller sizes, and c to specify bytes explicitly.
+
+5. `-mindepth <level>`: Start the search after a specific number of directory levels.
