@@ -54,6 +54,7 @@ The `reversed` method of `ArrayExamples` class has a bug.
         return newArray;
     }
    ```
+   BUG FIX: Initially, the code was changing the elements in the original array `arr` itself by assigning the values from `newArray`. However, `newArray` is empty and should contain the reversed array (elements in reverse order). Hence, in the corrected code, we are appending elements in `newArray` from `arr` in reverse order.
 
 ***
 
@@ -63,31 +64,90 @@ The `reversed` method of `ArrayExamples` class has a bug.
 
 1. `-iname` "pattern" is similar to the `-name` pattern but is case insensitive.
 
-   ![Image](Screenshot%202024-02-13%20at%205.11.46%20PM.png)
+   ```
+   [user@sahara ~/docsearch/technical]$ find biomed/ -iname "1468*.txt"
+   biomed/1468-6708-3-4.txt
+   biomed/1468-6708-3-10.txt
+   biomed/1468-6708-3-7.txt
+   biomed/1468-6708-3-3.txt
+   biomed/1468-6708-3-1.txt
 
-   ![Image](Screenshot%202024-02-13%20at%205.12.49%20PM.png)
+   ```
+
+   ```
+
+   [user@sahara ~/docsearch/technical]$ find 911report/ -iname "Pre*.txt"
+   911report/preface.txt
+
+   ```
 
    
 2. `-type <type>`: searches for files of a particular type ('f' for files, 'd' for directories)
 
-   ![Image](Screenshot%202024-02-13%20at%205.21.25%20PM.png)
+   ```
+   [user@sahara ~/docsearch/technical]$ find -type d
+   .
+   ./911report
+   ./biomed
+   ```
 
-   ![Image](Screenshot%202024-02-13%20at%205.21.41%20PM.png)
+   ```
+   [user@sahara ~/docsearch/technical]$ find 911report/ -type f
+   911report/chapter-13.4.txt
+   911report/chapter-2.txt
+   911report/chapter-11.txt
+   911report/chapter-13.1.txt
+   911report/chapter-10.txt
+   911report/chapter-3.txt
+   911report/chapter-7.txt
+   911report/preface.txt
+   911report/chapter-5.txt
+   911report/chapter-9.txt
+   911report/chapter-8.txt
+   911report/chapter-13.3.txt
+   911report/chapter-1.txt
+   911report/chapter-13.5.txt
+   911report/chapter-13.2.txt
+   911report/chapter-6.txt
+   911report/chapter-12.txt
+   ```
 
 3. `-size [+|-]size[c]`: Search for files of a specific size. You can use + or - to specify larger or smaller sizes, and c to specify bytes explicitly.
 
-   ![Image](Screenshot%202024-02-13%20at%205.23.50%20PM.png)
+   ```
+   [user@sahara ~/docsearch/technical]$ find biomed/ -size +120 
+   biomed/1472-6904-3-1.txt
+   biomed/1471-2105-3-2.txt
+   biomed/1471-2202-3-1.txt
+   biomed/1475-4924-1-10.txt
+   biomed/1472-6882-1-10.txt
+   biomed/1471-2105-3-18.txt
+   biomed/1472-6904-2-5.txt
+   biomed/1471-2121-3-15.txt
+   biomed/1472-6807-3-1.txt
+   biomed/1471-2105-2-8.txt
+   ```
 
-   ![Image](Screenshot%202024-02-13%20at%205.24.06%20PM.png)
+   ```
+   [user@sahara ~/docsearch/technical]$ find biomed/ -size +180
+   biomed/1471-2105-3-2.txt
+   ```
 
 4. `-mindepth <level>`: Start the search after a specific number of directory levels.
 
-   ![Image](Screenshot%202024-02-13%20at%205.25.04%20PM.png)
+   ```
+   [user@sahara ~/docsearch/technical]$ find -mindepth 1 -type d
+   ./911report
+   ./biomed
+   ```
 
-   ![Image](Screenshot%202024-02-13%20at%205.25.11%20PM.png)
+   ```
+   [user@sahara ~/docsearch/technical]$ find -mindepth 2 -type d
+   [user@sahara ~/docsearch/technical]$
+   ```
 
 **SOURCES:**
-- [Linux Manual Page](https://man7.org/linux/man-pages/man1/find.1.html)
-- [Red Hat](https://www.redhat.com/sysadmin/linux-find-command)
+- [Linux Manual Page](https://man7.org/linux/man-pages/man1/find.1.html) : for commands `-iname`, `-type` and `-mindepth`
+- [Red Hat](https://www.redhat.com/sysadmin/linux-find-command) : for the `-size` command
 
 ***
