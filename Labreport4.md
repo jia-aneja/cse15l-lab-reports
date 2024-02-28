@@ -11,7 +11,7 @@ Keys pressed: `<enter>`
 STEP 5: Clone the forked repository from GitHub account:
 `git clone git@github.com:jia-aneja/lab7.git`
 
-![Image](https://github.com/jia-aneja/cse15l-lab-reports/blob/main/IMG_0017.jpeg)
+![Image](IMG_0017.jpeg)
 
 Keys pressed: `git` `<space>` `clone` `<space>` `Ctrl V`
 I pasted the `ssh` url that I copied after forking the repository.
@@ -19,14 +19,14 @@ I pasted the `ssh` url that I copied after forking the repository.
 STEP 6: Running the tests:
 `bash test.sh`
 
-![Image](https://github.com/jia-aneja/cse15l-lab-reports/blob/main/IMG_0018.jpeg)
+![Image](IMG_0018.jpeg)
 
 Keys pressed: `cd` `<space>` `la` `<tab>` `<enter>` `bash` `t` `<tab>` `<enter>`
 Entered into lab7/ directory then ran the bash command
 
 STEP 7: Editing code to fix the test that is failing
 
-![Image](https://github.com/jia-aneja/cse15l-lab-reports/blob/main/IMG_0019.jpeg)
+![Image](IMG_0019.jpeg)
 
 Keys pressed: `vim` `<space>` `L` `<tab>` `<space>` `.` `<tab>` `<enter>` `43 j` `11 l` `x` `i` `2` `<escape>` `:wq!`
 Typed vim then tabbed into the `ListExamples.java` file opening it in the vim editor
@@ -39,7 +39,7 @@ Typed `:wq!` to save and exit.
 STEP 8: Running the tests after correcting the file
 `bash test.sh`
 
-![Image](https://github.com/jia-aneja/cse15l-lab-reports/blob/main/IMG_0020.jpeg)
+![Image](IMG_0020.jpeg)
 
 Keys pressed: `<up>` `<up>` `<up>` `<enter>`
 Used up arrow to access the command from the terminal
