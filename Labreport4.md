@@ -4,7 +4,7 @@
 STEP 4: Log into ieng6 using command:
 `ssh janeja@ieng6.ucsd.edu`
 
-![Image](https://github.com/jia-aneja/cse15l-lab-reports/blob/main/IMG_0016.jpeg)
+![Image](IMG_0016.jpeg)
 
 Keys pressed: `<enter>`
 
