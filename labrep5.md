@@ -18,7 +18,10 @@ Student : I wrote this test for the reversed method in ArrayExamples.java, and I
 ![Image](Screenshot%202024-03-11%20213836.png)
 
 ```
-TA: As discussed during the Monday lecture of week 3 (https://ucsd-cse15l-w24.github.io/week3/index.html) , it's hard to help with questions that only provide symptoms without showing the code. We need to see more (like the reversed method of ArrayExamples.java) in order to detect the bug. You could also come to Office Hours to get help.
+TA: As discussed during the Monday lecture of week 3 (https://ucsd-cse15l-w24.github.io/week3/index.html),
+it's hard to help with questions that only provide symptoms without showing the code.
+We need to see more (like the reversed method of ArrayExamples.java) in order to detect the bug.
+You could also come to Office Hours to get help.
 ```
 
 ```
