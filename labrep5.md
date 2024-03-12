@@ -37,7 +37,8 @@ Terminal Behavior:
 ![Image](Screenshot%202024-03-11%20220541.png)
 
 ```
-TA: The bug is in the reversed method. While appending the elements in reversed order, be careful about the list you are updating.
+TA: The bug is in the reversed method.
+While appending the elements in reversed order, be careful about the list you are updating.
 ```
 
 ```
